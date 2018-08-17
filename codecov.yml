@@ -1,3 +1,6 @@
+# Sniperkit-Bot
+# - Status: analyzed
+
 comment: false
 ignore:
   - "core/bindata.go"

@@ -1,9 +1,16 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 package cmd
 
 import (
 	"fmt"
-	"github.com/goeuro/myke/core"
+
 	"github.com/pkg/errors"
+
+	"github.com/sniperkit/snk.fork.myke/core"
 )
 
 // License prints all open source licenses

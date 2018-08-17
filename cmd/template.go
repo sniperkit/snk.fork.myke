@@ -1,10 +1,17 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 package cmd
 
 import (
 	"fmt"
-	"github.com/goeuro/myke/core"
-	"github.com/pkg/errors"
 	"io/ioutil"
+
+	"github.com/pkg/errors"
+
+	"github.com/sniperkit/snk.fork.myke/core"
 )
 
 // Template renders the given template file

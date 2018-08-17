@@ -1,4 +1,7 @@
+# Sniperkit-Bot
+# - Status: analyzed
+
 default:
   build: .
   volumes:
-    - ".:/go/src/github.com/goeuro/myke"
+    - ".:/go/src/github.com/sniperkit/snk.fork.myke"

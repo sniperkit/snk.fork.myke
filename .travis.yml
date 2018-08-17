@@ -1,5 +1,8 @@
+# Sniperkit-Bot
+# - Status: analyzed
+
 language: go
-go_import_path: github.com/goeuro/myke
+go_import_path: github.com/sniperkit/snk.fork.myke
 go:
   - 1.8
 install:
@@ -8,7 +11,7 @@ script:
   - gofmt -d -s -e . 2>&1 | tee -a fmt.out
   - test ! -s fmt.out
   - golint -set_exit_status .
-  - overalls -project=github.com/goeuro/myke -covermode=atomic -- -coverpkg=github.com/goeuro/myke/core,github.com/goeuro/myke/cmd
+  - overalls -project=github.com/sniperkit/snk.fork.myke -covermode=atomic -- -coverpkg=github.com/sniperkit/snk.fork.myke/core,github.com/sniperkit/snk.fork.myke/cmd
   - bin/cross-compile.sh "$TRAVIS_TAG-$TRAVIS_COMMIT"
 after_success:
   - mv overalls.coverprofile coverage.txt
@@ -23,7 +26,7 @@ deploy:
     - bin/myke_linux_amd64
     - bin/myke_windows_amd64.exe
   on:
-    repo: goeuro/myke
+    repo: sniperkit/snk.fork.myke
     branch: none
     tags: true
     condition: "$TRAVIS_TAG =~ ^v[0-9].+$"

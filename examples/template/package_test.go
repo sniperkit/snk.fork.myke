@@ -1,8 +1,14 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 package test
 
 import (
-	. "github.com/goeuro/myke/examples/util"
 	"testing"
+
+	. "github.com/sniperkit/snk.fork.myke/examples/util"
 )
 
 var tests = []TestTable{

@@ -1,10 +1,16 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 package core
 
 import (
 	"bytes"
 	"fmt"
-	"github.com/Masterminds/sprig"
 	"text/template"
+
+	"github.com/Masterminds/sprig"
 )
 
 // RenderTemplate renders the given template with env/args map

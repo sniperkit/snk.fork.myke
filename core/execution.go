@@ -1,13 +1,19 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 package core
 
 import (
-	"github.com/apex/log"
-	"github.com/kardianos/osext"
-	"github.com/pkg/errors"
 	"os"
 	"os/exec"
 	"strings"
 	"time"
+
+	"github.com/apex/log"
+	"github.com/kardianos/osext"
+	"github.com/pkg/errors"
 )
 
 // Execution represents a task and context being invoked

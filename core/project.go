@@ -1,13 +1,18 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 package core
 
 import (
-	"github.com/ghodss/yaml"
-	"github.com/tidwall/gjson"
-
 	"io/ioutil"
 	"path/filepath"
 	"sort"
 	"strings"
+
+	"github.com/ghodss/yaml"
+	"github.com/tidwall/gjson"
 )
 
 // Project represents a parsed project

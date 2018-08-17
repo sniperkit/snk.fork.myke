@@ -1,9 +1,16 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 package main
 
 import (
-	"github.com/apex/log"
-	"github.com/goeuro/myke/cmd"
 	"os"
+
+	"github.com/apex/log"
+
+	"github.com/sniperkit/snk.fork.myke/cmd"
 )
 
 func main() {

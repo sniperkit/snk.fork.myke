@@ -1,8 +1,14 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 package cmd
 
 import (
-	"github.com/goeuro/myke/core"
 	"github.com/pkg/errors"
+
+	"github.com/sniperkit/snk.fork.myke/core"
 )
 
 // Run runs the given tasks

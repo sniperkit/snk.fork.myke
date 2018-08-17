@@ -1,14 +1,21 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 package cmd
 
 import (
 	"fmt"
-	"github.com/apex/log"
-	"github.com/apex/log/handlers/cli"
-	"github.com/goeuro/myke/core"
-	"github.com/jessevdk/go-flags"
 	"io"
 	"os"
 	"path/filepath"
+
+	"github.com/apex/log"
+	"github.com/apex/log/handlers/cli"
+	"github.com/jessevdk/go-flags"
+
+	"github.com/sniperkit/snk.fork.myke/core"
 )
 
 type mykeOpts struct {

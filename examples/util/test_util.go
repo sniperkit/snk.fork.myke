@@ -1,3 +1,8 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 // Shared testing utilities for CLI table driven tests
 
 package util
@@ -5,13 +10,15 @@ package util
 import (
 	"bytes"
 	"fmt"
-	"github.com/goeuro/myke/cmd"
-	"github.com/stretchr/testify/assert"
 	"io"
 	"os"
 	"path/filepath"
 	"strings"
 	"testing"
+
+	"github.com/stretchr/testify/assert"
+
+	"github.com/sniperkit/snk.fork.myke/cmd"
 )
 
 // TestTable represents a table-driven test

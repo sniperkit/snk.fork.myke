@@ -1,11 +1,17 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 package core
 
 import (
-	"github.com/apex/log"
-	"github.com/tidwall/gjson"
 	"strconv"
 	"strings"
 	"time"
+
+	"github.com/apex/log"
+	"github.com/tidwall/gjson"
 )
 
 // Task reprents a parsed task

@@ -1,11 +1,16 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 package core
 
 import (
-	"github.com/joho/godotenv"
-
 	"os"
 	"path/filepath"
 	"strings"
+
+	"github.com/joho/godotenv"
 )
 
 const pathSep = string(os.PathListSeparator)
