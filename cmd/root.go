@@ -14,7 +14,6 @@ import (
 	"github.com/apex/log"
 	"github.com/apex/log/handlers/cli"
 	"github.com/jessevdk/go-flags"
-
 	"github.com/sniperkit/snk.fork.myke/core"
 )
 

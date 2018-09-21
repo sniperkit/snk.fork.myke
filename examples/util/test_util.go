@@ -16,9 +16,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/stretchr/testify/assert"
-
 	"github.com/sniperkit/snk.fork.myke/cmd"
+	"github.com/stretchr/testify/assert"
 )
 
 // TestTable represents a table-driven test

@@ -7,7 +7,6 @@ package cmd
 
 import (
 	"github.com/pkg/errors"
-
 	"github.com/sniperkit/snk.fork.myke/core"
 )
 

@@ -9,7 +9,6 @@ import (
 	"os"
 
 	"github.com/apex/log"
-
 	"github.com/sniperkit/snk.fork.myke/cmd"
 )
 
